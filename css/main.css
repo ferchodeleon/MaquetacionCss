@@ -29,7 +29,7 @@ header .header-icons-container {
 }
 
 header .header-icons-container .icons {
-  width: 400px;
+  width: 300px;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -37,4 +37,8 @@ header .header-icons-container .icons {
   justify-items: flex-end;
   justify-self: end;
   margin-right: 50px;
+}
+
+header .header-icons-container .icons span {
+  color: white
 }
