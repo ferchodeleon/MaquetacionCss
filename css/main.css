@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700;900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -40,7 +42,7 @@ header .header-icons-container .icons {
 }
 
 header .header-icons-container .icons span {
-  color: white
+  color: white;
 }
 
 nav {
@@ -66,6 +68,7 @@ nav .profile-link {
 }
 
 nav .profile-link a {
+  font-family: "Robot Mono", monospace;
   color: black;
   border-bottom: 1px solid black;
 }
@@ -74,6 +77,10 @@ nav .profile-link a {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
+  background-image: url("../assets/image/Cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-main section {
@@ -85,8 +92,61 @@ nav .profile-link a {
 }
 
 .home-main-text {
+  font-family: "Roboto Mono", monospace;
+  color: white;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 10px;
   text-align: center;
+}
+
+.home-main-button {
+  width: 110px;
+  height: 50px;
+  background-color: #47cfac;
+  display: grid;
+  align-items: center;
+}
+
+.home-main-button a {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.noticias {
+  width: 100%;
+  background-color: #e6e9ed;
+}
+
+.noticias-container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 40px;
+}
+
+.noticias-container-img img {
+  width: 90%;
+}
+
+.noticias__texto {
+  width: 90%;
+  margin: auto 0;
+}
+
+.noticias__texto h2 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.noticias__texto p {
+  margin: 25px 0;
+}
+
+.noticias__texto button {
+  width: 110px;
+  height: 40px;
+  border: 1px solid #47cfac;
+  background-color: transparent;
 }
