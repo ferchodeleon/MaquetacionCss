@@ -3,6 +3,11 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
   position: fixed; /*De esta forma la pagina se queda quieta sin un scroll*/
   top: 0;
   left: 0;
@@ -136,7 +141,7 @@ nav .profile-link a {
 }
 
 .noticias__texto h2 {
-  font-size: 60px;
+  font-size: 30px;
   margin: 20px 0;
 }
 
@@ -149,4 +154,8 @@ nav .profile-link a {
   height: 40px;
   border: 1px solid #47cfac;
   background-color: transparent;
+}
+
+article h3 {
+  color: black;
 }
