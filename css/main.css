@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.body {
+.home-body {
   margin: 0;
   padding: 0;
   position: fixed; /*De esta forma la pagina se queda quieta sin un scroll*/
@@ -118,44 +118,43 @@ nav .profile-link a {
   font-size: 18px;
 }
 
-.blogs-main-new {
-  width: 100%;
-  background-color: #e6e9ed;
+.blogs-main {
+  display: grid;
 }
 
-.noticias-container {
-  width: 90%;
-  margin: 0 auto;
+.blogs-news-container {
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+}
+
+.blogs-main-new {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-bottom: 40px;
+  grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+  grid-column: 1;
 }
 
 .blogs-news-img-container img {
-  width: 90%;
+  width: 85%;
 }
 
 .blogs-news-info-container {
-  width: 90%;
-  margin: auto 0;
+  grid-column: 2;
 }
 
-.noticias__texto h2 {
-  font-size: 30px;
-  margin: 20px 0;
+.blogs-news-info-container p {
+  margin-bottom: 35px;
 }
 
-.noticias__texto p {
-  margin: 25px 0;
+.blogs-post-container {
+  padding: 0 50px 40px;
 }
 
-.blogs-button {
-  width: 110px;
-  height: 40px;
-  border: 1px solid #47cfac;
-  background-color: transparent;
-}
-
-article h3 {
-  color: black;
+.blogs-post-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  text-align: center;
 }
