@@ -118,7 +118,7 @@ nav .profile-link a {
   font-size: 18px;
 }
 
-.noticias {
+.blogs-main-new {
   width: 100%;
   background-color: #e6e9ed;
 }
@@ -131,11 +131,11 @@ nav .profile-link a {
   padding-bottom: 40px;
 }
 
-.noticias-container-img img {
+.blogs-news-img-container img {
   width: 90%;
 }
 
-.noticias__texto {
+.blogs-news-info-container {
   width: 90%;
   margin: auto 0;
 }
@@ -149,7 +149,7 @@ nav .profile-link a {
   margin: 25px 0;
 }
 
-.noticias__texto button {
+.blogs-button {
   width: 110px;
   height: 40px;
   border: 1px solid #47cfac;
